@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primary-color {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 35px;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* navigation header */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    padding-left: 50px;
+
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+/* banner styles */
+.banner {
+    margin: 0px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.banner-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+
+.banner-paragraph {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* About Section Styles */
+.about {
+    margin-top: 130px;
+    padding: 130px 156px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    margin-top: 0 auto;
+    text-align: center;
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.about-section-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    width: 827px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title {
+    font-weight: 400;
+    font-size: 15px;
+    width: 118px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 15px;
+    color: #474747;
+    width: 118px;
+    height: 30px;
+}
